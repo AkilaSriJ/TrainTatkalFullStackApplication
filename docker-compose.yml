@@ -1,0 +1,18 @@
+# docker-compose.yml (root)
+services:
+  backend:
+    build: ./backend
+    container_name: train-backend
+    ports:
+      - "5000:8080"
+    # If your API needs env vars, map them here or use env_file
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  frontend:
+    build: ./frontend
+    container_name: train-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend

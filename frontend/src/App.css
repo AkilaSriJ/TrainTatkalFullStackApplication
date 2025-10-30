@@ -1,5 +1,5 @@
 .container{
-    background-color: #002B7A;
+    background-color:#fd7e14;
     max-width: 450px;
     width:100%;
     border-radius: 25px;
@@ -9,6 +9,7 @@
     max-width:450px;
     border-radius: 25px;
     margin-top: 45px;
+    font-family: sans-serif;
 }
 .text{
     color: #Ffff;
@@ -27,13 +28,6 @@
     margin-left: 24px;
     margin-right: 24px;
     border-radius: 5px;
-}
-.day{
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.calender {
-    margin-top: 50px;
-    font-size: 18px;
+    color: #ffff;
+    font-size: 25px;
 }
