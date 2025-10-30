@@ -1,0 +1,6 @@
+@Genx.TrainTatkalBooking.Api_HostAddress = http://localhost:5193
+
+GET {{Genx.TrainTatkalBooking.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

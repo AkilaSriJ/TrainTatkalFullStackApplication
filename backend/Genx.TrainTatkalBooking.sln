@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genx.TrainTatkalBooking.Api", "Genx.TrainTatkalBooking.Api\Genx.TrainTatkalBooking.Api.csproj", "{7B6B0ABB-F59A-4F58-946E-291F650BA668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genx.TrainTatkalBooking.Data", "Genx.TrainTatkalBooking.Data\Genx.TrainTatkalBooking.Data.csproj", "{69993C2C-A811-4121-9727-7DB073ECAC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genx.TrainTatkalBooking.Common", "Genx.TrainTatkalBooking.Common\Genx.TrainTatkalBooking.Common.csproj", "{4807252C-9071-40FA-90AF-290CB598CE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genx.TrainTatkalBooking.Model", "Genx.TrainTatkalBooking.Model\Genx.TrainTatkalBooking.Model.csproj", "{FFDF00A8-0394-4D3A-B1CC-3C07D703E9D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genx.TrainTatkalBooking.Service", "Genx.TrainTatkalBooking.Service\Genx.TrainTatkalBooking.Service.csproj", "{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B6B0ABB-F59A-4F58-946E-291F650BA668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6B0ABB-F59A-4F58-946E-291F650BA668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6B0ABB-F59A-4F58-946E-291F650BA668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6B0ABB-F59A-4F58-946E-291F650BA668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69993C2C-A811-4121-9727-7DB073ECAC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69993C2C-A811-4121-9727-7DB073ECAC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69993C2C-A811-4121-9727-7DB073ECAC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69993C2C-A811-4121-9727-7DB073ECAC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4807252C-9071-40FA-90AF-290CB598CE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4807252C-9071-40FA-90AF-290CB598CE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4807252C-9071-40FA-90AF-290CB598CE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4807252C-9071-40FA-90AF-290CB598CE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDF00A8-0394-4D3A-B1CC-3C07D703E9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDF00A8-0394-4D3A-B1CC-3C07D703E9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDF00A8-0394-4D3A-B1CC-3C07D703E9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDF00A8-0394-4D3A-B1CC-3C07D703E9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5F1C1A5-A15A-4646-9AAB-2766FE1AE21B}
+	EndGlobalSection
+EndGlobal

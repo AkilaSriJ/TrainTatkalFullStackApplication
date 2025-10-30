@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\traintatkal\\Genx.TrainTatkalBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}|Genx.TrainTatkalBooking.Service\\Genx.TrainTatkalBooking.Service.csproj|e:\\traintatkal\\genx.traintatkalbooking\\genx.traintatkalbooking.service\\service\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}|Genx.TrainTatkalBooking.Service\\Genx.TrainTatkalBooking.Service.csproj|solutionrelative:genx.traintatkalbooking.service\\service\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6B0ABB-F59A-4F58-946E-291F650BA668}|Genx.TrainTatkalBooking.Api\\Genx.TrainTatkalBooking.Api.csproj|e:\\traintatkal\\genx.traintatkalbooking\\genx.traintatkalbooking.api\\controllers\\bookingdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B6B0ABB-F59A-4F58-946E-291F650BA668}|Genx.TrainTatkalBooking.Api\\Genx.TrainTatkalBooking.Api.csproj|solutionrelative:genx.traintatkalbooking.api\\controllers\\bookingdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69993C2C-A811-4121-9727-7DB073ECAC8C}|Genx.TrainTatkalBooking.Data\\Genx.TrainTatkalBooking.Data.csproj|e:\\traintatkal\\genx.traintatkalbooking\\genx.traintatkalbooking.data\\repository\\bookingdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69993C2C-A811-4121-9727-7DB073ECAC8C}|Genx.TrainTatkalBooking.Data\\Genx.TrainTatkalBooking.Data.csproj|solutionrelative:genx.traintatkalbooking.data\\repository\\bookingdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}|Genx.TrainTatkalBooking.Service\\Genx.TrainTatkalBooking.Service.csproj|e:\\traintatkal\\genx.traintatkalbooking\\genx.traintatkalbooking.service\\interface\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}|Genx.TrainTatkalBooking.Service\\Genx.TrainTatkalBooking.Service.csproj|solutionrelative:genx.traintatkalbooking.service\\interface\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6B0ABB-F59A-4F58-946E-291F650BA668}|Genx.TrainTatkalBooking.Api\\Genx.TrainTatkalBooking.Api.csproj|e:\\traintatkal\\genx.traintatkalbooking\\genx.traintatkalbooking.api\\controllers\\passengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B6B0ABB-F59A-4F58-946E-291F650BA668}|Genx.TrainTatkalBooking.Api\\Genx.TrainTatkalBooking.Api.csproj|solutionrelative:genx.traintatkalbooking.api\\controllers\\passengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}|Genx.TrainTatkalBooking.Service\\Genx.TrainTatkalBooking.Service.csproj|e:\\traintatkal\\genx.traintatkalbooking\\genx.traintatkalbooking.service\\service\\passengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311CB2DE-B9B6-4CAC-8219-5BB326D0ADD4}|Genx.TrainTatkalBooking.Service\\Genx.TrainTatkalBooking.Service.csproj|solutionrelative:genx.traintatkalbooking.service\\service\\passengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFDF00A8-0394-4D3A-B1CC-3C07D703E9D0}|Genx.TrainTatkalBooking.Model\\Genx.TrainTatkalBooking.Model.csproj|e:\\traintatkal\\genx.traintatkalbooking\\genx.traintatkalbooking.model\\dto\\passengerreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFDF00A8-0394-4D3A-B1CC-3C07D703E9D0}|Genx.TrainTatkalBooking.Model\\Genx.TrainTatkalBooking.Model.csproj|solutionrelative:genx.traintatkalbooking.model\\dto\\passengerreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingDetailsRepository.cs",
+              "DocumentMoniker": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Data\\Repository\\BookingDetailsRepository.cs",
+              "RelativeDocumentMoniker": "Genx.TrainTatkalBooking.Data\\Repository\\BookingDetailsRepository.cs",
+              "ToolTip": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Data\\Repository\\BookingDetailsRepository.cs",
+              "RelativeToolTip": "Genx.TrainTatkalBooking.Data\\Repository\\BookingDetailsRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T06:12:41.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingDetailController.cs",
+              "DocumentMoniker": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Api\\Controllers\\BookingDetailController.cs",
+              "RelativeDocumentMoniker": "Genx.TrainTatkalBooking.Api\\Controllers\\BookingDetailController.cs",
+              "ToolTip": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Api\\Controllers\\BookingDetailController.cs",
+              "RelativeToolTip": "Genx.TrainTatkalBooking.Api\\Controllers\\BookingDetailController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAEwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T06:11:49.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Service\\Service\\BookingService.cs",
+              "RelativeDocumentMoniker": "Genx.TrainTatkalBooking.Service\\Service\\BookingService.cs",
+              "ToolTip": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Service\\Service\\BookingService.cs",
+              "RelativeToolTip": "Genx.TrainTatkalBooking.Service\\Service\\BookingService.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAEwI0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T06:01:02.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Service\\Interface\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Genx.TrainTatkalBooking.Service\\Interface\\IBookingService.cs",
+              "ToolTip": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Service\\Interface\\IBookingService.cs",
+              "RelativeToolTip": "Genx.TrainTatkalBooking.Service\\Interface\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T06:00:36.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PassengerController.cs",
+              "DocumentMoniker": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Api\\Controllers\\PassengerController.cs",
+              "RelativeDocumentMoniker": "Genx.TrainTatkalBooking.Api\\Controllers\\PassengerController.cs",
+              "ToolTip": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Api\\Controllers\\PassengerController.cs",
+              "RelativeToolTip": "Genx.TrainTatkalBooking.Api\\Controllers\\PassengerController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T05:21:46.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PassengerService.cs",
+              "DocumentMoniker": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Service\\Service\\PassengerService.cs",
+              "RelativeDocumentMoniker": "Genx.TrainTatkalBooking.Service\\Service\\PassengerService.cs",
+              "ToolTip": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Service\\Service\\PassengerService.cs",
+              "RelativeToolTip": "Genx.TrainTatkalBooking.Service\\Service\\PassengerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T05:14:28.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PassengerReadDto.cs",
+              "DocumentMoniker": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Model\\DTO\\PassengerReadDto.cs",
+              "RelativeDocumentMoniker": "Genx.TrainTatkalBooking.Model\\DTO\\PassengerReadDto.cs",
+              "ToolTip": "E:\\traintatkal\\Genx.TrainTatkalBooking\\Genx.TrainTatkalBooking.Model\\DTO\\PassengerReadDto.cs",
+              "RelativeToolTip": "Genx.TrainTatkalBooking.Model\\DTO\\PassengerReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T05:13:55.017Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
