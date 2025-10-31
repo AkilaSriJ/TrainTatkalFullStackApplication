@@ -1,18 +1,34 @@
-# docker-compose.yml (root)
+version: "3.9"
 services:
   backend:
-    build: ./backend
-    container_name: train-backend
+    build: ./backend         # folder with backend code
+    container_name: backend
     ports:
-      - "5000:8080"
-    # If your API needs env vars, map them here or use env_file
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - "5193:8080"          # host 5193 -> container 8080
+    networks:
+      - appnet
 
   frontend:
-    build: ./frontend
-    container_name: train-frontend
+    build: ./frontend        # folder with frontend code (nginx or vite)
+    container_name: frontend
     ports:
-      - "3000:80"
-    depends_on:
-      - backend
+      - "3000:80"            # host 3000 -> container port 80 (nginx)
+    environment:
+      - VITE_API_URL=http://backend:8080   # frontend will call "backend" inside Docker
+    networks:
+      - appnet
+
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: TrainTatkalDB
+    ports:
+      - "3307:3307"
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: bridge

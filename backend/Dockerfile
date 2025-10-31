@@ -1,28 +1,32 @@
-# backend/Dockerfile
-# Build stage with .NET SDK
+# Use the official .NET 8 SDK image to build the project
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy everything (solution + projects)
-COPY . .
+# Copy the solution file and restore dependencies
+COPY Genx.TrainTatkalBooking.sln ./
+COPY Genx.TrainTatkalBooking.Api/Genx.TrainTatkalBooking.Api.csproj Genx.TrainTatkalBooking.Api/
+COPY Genx.TrainTatkalBooking.Data/Genx.TrainTatkalBooking.Data.csproj Genx.TrainTatkalBooking.Data/
+COPY Genx.TrainTatkalBooking.Model/Genx.TrainTatkalBooking.Model.csproj Genx.TrainTatkalBooking.Model/
+COPY Genx.TrainTatkalBooking.Service/Genx.TrainTatkalBooking.Service.csproj Genx.TrainTatkalBooking.Service/
+COPY Genx.TrainTatkalBooking.Common/Genx.TrainTatkalBooking.Common.csproj Genx.TrainTatkalBooking.Common/
 
-# Restore NuGet packages for the solution (adjust path if your .sln is at a different path)
 RUN dotnet restore Genx.TrainTatkalBooking.sln
 
+# Copy the entire project files
+COPY . .
 
-# Publish the Service project (adjust project path if needed)
-RUN dotnet publish Genx.TrainTatkalBooking.Service/Genx.TrainTatkalBooking.Service.csproj -c Release -o /app/publish /p:UseAppHost=false
+# Build the API project
+WORKDIR /src/Genx.TrainTatkalBooking.Api
+RUN dotnet publish -c Release -o /app/publish
 
-
-# Runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+# Use a smaller runtime image for production
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
-ENV ASPNETCORE_URLS=http://+:8080
-
-# Copy published output
 COPY --from=build /app/publish .
 
-# Expose port that the app listens on
+# Expose the default port
 EXPOSE 8080
+EXPOSE 8081
 
-ENTRYPOINT ["dotnet", "Genx.TrainTatkalBooking.Service.dll"]
+# Set the entry point
+ENTRYPOINT ["dotnet", "Genx.TrainTatkalBooking.Api.dll"]

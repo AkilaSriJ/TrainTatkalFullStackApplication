@@ -6,7 +6,7 @@ import type { IGetPassengerInfo } from '../types/auth';
 import type { IGetBooking } from '../types/auth';
 
 
-const BASE_URL ='https://localhost:7137/api';
+const BASE_URL ='https://localhost:5193/api';
 
 
 export const getTrains = async (

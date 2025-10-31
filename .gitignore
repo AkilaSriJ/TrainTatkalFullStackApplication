@@ -1,0 +1,17 @@
+# Ignore Visual Studio and .NET build folders
+.vs/
+bin/
+obj/
+*.user
+*.db
+*.cache
+*.pdb
+
+# Ignore build artifacts
+*.dll
+*.exe
+
+# Ignore migrations cache and temp files
+*.vsidx
+*.shm
+*.wal
